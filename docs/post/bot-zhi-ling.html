@@ -13,7 +13,10 @@
 <meta name="description" content="# 学习前的小提示
 > [!TIP]
 > <参数>：必填参数
+> <参数1 | 参数2>：参数1和参数2中选一个
+>
 > [参数]：选填参数
+> [参数1 | 参数2]：参数1或参数2或不填
 
 # 创建假人
 要创建假人，请在游戏内执行命令：`/bot create <假人名> [皮肤名]`
@@ -29,7 +32,10 @@
 <meta property="og:description" content="# 学习前的小提示
 > [!TIP]
 > <参数>：必填参数
+> <参数1 | 参数2>：参数1和参数2中选一个
+>
 > [参数]：选填参数
+> [参数1 | 参数2]：参数1或参数2或不填
 
 # 创建假人
 要创建假人，请在游戏内执行命令：`/bot create <假人名> [皮肤名]`
@@ -103,7 +109,9 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <div id="content">
 <div class="markdown-body" id="postBody"><h1>学习前的小提示</h1>
 <div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg>Tip</p><p>&lt;参数&gt;：必填参数<br>
-[参数]：选填参数</p>
+&lt;参数1 | 参数2&gt;：参数1和参数2中选一个</p>
+<p>[参数]：选填参数<br>
+[参数1 | 参数2]：参数1或参数2或不填</p>
 </div>
 <h1>创建假人</h1>
 <p>要创建假人，请在游戏内执行命令：<code class="notranslate">/bot create &lt;假人名&gt; [皮肤名]</code></p>
@@ -116,9 +124,25 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 <h1>移除假人</h1>
 <p>假人无法复活，即使游戏开启死亡不掉落，也会在死亡后扔出所有物品并移除自己（而不是像 Carpet 那样断开连接）</p>
-<p>在一般情况下，假人会在服务器关闭前被全部移除，除非腐竹开启假人</p>
-<p>你也可以使用命令 /bot remove &lt;假人名&gt; 来移除指定的假人。</p>
-<p>你也可以使用命令 /bot remove &lt;假人名&gt; [时] [分] [秒] 来定时移除指定的假人。</p></div>
+<div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg>Tip</p><p>在一般情况下未开启假人驻留，假人会在服务器关闭前被全部移除，假人身上的装备会直接消失，所以在重启服务器前请及时拿取</p>
+</div>
+<p><code class="notranslate">/bot remove &lt;假人名&gt;</code><br>
+移除指定的假人</p>
+<p><code class="notranslate">/bot remove &lt;假人名&gt; [时] [分] [秒]</code><br>
+定时移除指定的假人</p>
+<h1>假人动作</h1>
+<p>动作是假人的重要部分，它可以让假人完成更多任务。 截止目前，假人一共拥有 15 种动作</p>
+<p>每个假人可以同时执行多个动作。每个动作相互独立，不会互相影响。</p>
+<div class="markdown-alert markdown-alert-warning"><p class="markdown-alert-title"><svg class="octicon octicon-alert mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Warning</p><p>但不允许左右脑冲突，例如长按右键和连点右键是无效的</p>
+</div>
+<p><code class="notranslate">/bot action &lt;假人名&gt; &lt;动作名&gt; &lt;start | stop | list&gt; [其它参数]</code><br>
+来指定假人的动作</p>
+<p><code class="notranslate">/bot action &lt;假人名&gt; list</code><br>
+可查看指定假人当前的所有动作</p>
+<p><code class="notranslate">/bot action &lt;假人名&gt; stop &lt;动作序号 | all&gt;</code><br>
+可停止假人当前的 一个 或 所有动作</p>
+<p><code class="notranslate">/bot action &lt;假人名&gt; start &lt;动作&gt; [动作参数]</code><br>
+可向假人添加一个动作</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 </div>
