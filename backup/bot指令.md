@@ -124,4 +124,4 @@
 - 动作参数: `<Player>` 或 `<X>` `<Y>` `<Z>`
 - 描述: 当假人开始执行这项动作时，假人将看向该玩家或给定的坐标
 
-<!-- ##{"script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>"}## -->
+<-- ##{"script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>"}## -->
