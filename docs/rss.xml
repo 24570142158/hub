@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>蓝海星正版服文档</title><link>https://blog.elevenshoe.top</link><description>遇到问题请联系 邮箱 noreply@elevenshoe.top , QQ 2457014215</description><copyright>蓝海星正版服文档</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/139684175?u=645149100889341d4cc65ba83fd5b83bfb577af1&amp;v=4&amp;size=64</url><title>avatar</title><link>https://blog.elevenshoe.top</link></image><lastBuildDate>Sun, 01 Mar 2026 07:37:17 +0000</lastBuildDate><managingEditor>蓝海星正版服文档</managingEditor><ttl>60</ttl><webMaster>蓝海星正版服文档</webMaster><item><title>bot指令</title><link>https://blog.elevenshoe.top/post/bot-zhi-ling.html</link><description># 学习前的小提示
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>蓝海星正版服文档</title><link>https://www.elevenshoe.top</link><description>遇到问题请联系 邮箱 noreply@elevenshoe.top , QQ 2457014215</description><copyright>蓝海星正版服文档</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/139684175?u=645149100889341d4cc65ba83fd5b83bfb577af1&amp;v=4&amp;size=64</url><title>avatar</title><link>https://www.elevenshoe.top</link></image><lastBuildDate>Sun, 01 Mar 2026 07:40:54 +0000</lastBuildDate><managingEditor>蓝海星正版服文档</managingEditor><ttl>60</ttl><webMaster>蓝海星正版服文档</webMaster><item><title>bot指令</title><link>https://www.elevenshoe.top/post/bot-zhi-ling.html</link><description># 学习前的小提示
 &gt; [!TIP]
 &gt; &lt;参数&gt;：必填参数
 &gt; &lt;参数1 | 参数2&gt;：参数1和参数2中选一个
@@ -16,7 +16,7 @@
 &gt; &lt;假人名&gt; 需要符合 Minecraft 的玩家名规范
 
 &gt; [!NOTE]
-&gt; [皮肤名] 假人将会使用皮肤名对应的皮肤。</description><guid isPermaLink="true">https://blog.elevenshoe.top/post/bot-zhi-ling.html</guid><pubDate>Sat, 28 Feb 2026 13:23:09 +0000</pubDate></item><item><title>服务器置顶</title><link>https://blog.elevenshoe.top/post/fu-wu-qi-zhi-ding.html</link><description>由于中考临近，我被迫放下手上的电脑，但请放心，我买了服务器，但可能要跟Xiao Xian一样很少上网了
+&gt; [皮肤名] 假人将会使用皮肤名对应的皮肤。</description><guid isPermaLink="true">https://www.elevenshoe.top/post/bot-zhi-ling.html</guid><pubDate>Sat, 28 Feb 2026 13:23:09 +0000</pubDate></item><item><title>服务器置顶</title><link>https://www.elevenshoe.top/post/fu-wu-qi-zhi-ding.html</link><description>由于中考临近，我被迫放下手上的电脑，但请放心，我买了服务器，但可能要跟Xiao Xian一样很少上网了
 正版验证 1.21.10
 ip：play.elevenshoe.top
 CPU：AMD EPYC
@@ -24,4 +24,4 @@ CPU：AMD EPYC
 服务端：Leaves
 开启白名单，机器人已死，需跟ElevenShoe申请，已添加白名单的玩家无需再申请
 新存档
-欢迎大家进服开荒。</description><guid isPermaLink="true">https://blog.elevenshoe.top/post/fu-wu-qi-zhi-ding.html</guid><pubDate>Sat, 28 Feb 2026 11:40:33 +0000</pubDate></item></channel></rss>
+欢迎大家进服开荒。</description><guid isPermaLink="true">https://www.elevenshoe.top/post/fu-wu-qi-zhi-ding.html</guid><pubDate>Sat, 28 Feb 2026 11:40:33 +0000</pubDate></item></channel></rss>
