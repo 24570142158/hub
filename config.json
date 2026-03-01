@@ -6,5 +6,6 @@
     "needComment": 0,
     "homeUrl": "https://www.elevenshoe.top",
     "startSite": "03/01/2026",
-    "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/articletoc.js'></script>"
+    "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/articletoc.js'></script>",
+    "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>"
 }
